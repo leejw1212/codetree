@@ -10,7 +10,8 @@ public class Main {
 
         if (a >= 3000) buy = "book";
         else if (a >= 1000) buy = "mask";
-        else buy = "pen";
+        else if (a >= 500) buy = "pen";
+        else buy = "no";
 
         System.out.print(buy);
     }
