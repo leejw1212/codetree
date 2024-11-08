@@ -6,6 +6,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if (a < 10 && a > 20) System.out.println("yes"); else System.out.println("no");
+        if (a < 10 || a > 20) System.out.println("yes"); else System.out.println("no");
     }
 }
