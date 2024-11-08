@@ -13,6 +13,8 @@ public class Main {
         {
             if (c > a)
                 System.out.println(a);
+            else if (c > b)
+                System.out.println(c);
             else 
                 System.out.println(b);
         }
@@ -20,8 +22,10 @@ public class Main {
         {
             if (c > b)
                 System.out.println(b);
-            else
+            else if (c > a)
                 System.out.println(c);
+            else 
+                System.out.println(a);
         }
 
     }
