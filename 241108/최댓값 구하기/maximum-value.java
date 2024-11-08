@@ -8,7 +8,7 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        int avg = (a+b+c)/3;
+        double avg = (a+b+c)/3;
 
         if (avg > a){
             if (b>=c)
