@@ -7,9 +7,9 @@ public class Main {
 
         int a = sc.nextInt();
 
-        if(a % 100 == 0 && a % 400 != 0)
+        if((a % 100 == 0 && a % 400 != 0) && a % 4 != 0)
             System.out.println("false");
-        else if(a % 4 == 0)
+        else 
             System.out.println("true");
     }
 }
